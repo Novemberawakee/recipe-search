@@ -1,0 +1,85 @@
+body {
+    background-color: #92B4EC;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Inspiration', cursive;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.input-field {
+    display: flex;
+}
+#search {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Ms Madi', cursive;
+    font-size: 25px;
+    background-color: #DFF6FF;
+    border: 2px #92B4EC solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Ms Madi', cursive;
+    color: #FFFFFF;
+}
+img {
+    padding: 15px;
+    border: 2px #FFFFFF solid;
+}
+@media all and (max-width: 912px){
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    a {
+        font-size: 26px;
+    }
+    p {
+        text-align: center;
+    }
+}
+@media all and (max-width: 500px){
+    h1 {
+        font-size: 50px;
+    }
+    a {
+        font-size: 35px;
+    }
+}
+@media all and (max-width: 280px){
+    h1 {
+        font-size: 40px;
+    }
+    #search {
+        font-size: 18px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    p {
+        text-align: center;
+    }
+    a {
+        font-size: 30px;
+    }
+}
